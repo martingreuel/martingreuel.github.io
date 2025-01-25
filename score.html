@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="refresh" content="10; URL=score.html " >
+<title>SuperCup2025</title>
+<script type="text/javascript">
+function getTime(){
+var Jetzt = new Date();
+var Stunden = Jetzt.getHours();
+var Minuten = Jetzt.getMinutes();
+var Sekunden = Jetzt.getSeconds();
+var Vorstd = (Stunden < 10) ? "0" : "";
+var Vormin = (Minuten < 10) ? ":0" : ":";
+var Vorsek = (Sekunden < 10) ? ":0" : ":";
+var Uhrzeit = Vorstd + Stunden + Vormin + Minuten + Vorsek + Sekunden;
+var Gesamt =  Uhrzeit;
+document.getElementById("time").firstChild.nodeValue = Gesamt;
+window.setTimeout("getTime()", 1000);
+}
+</script>
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body background=pic/back.png onload="window.setTimeout('getTime()', 0)">
+<table border=0 cellspacing=0 cellpadding=0 align=center width=800>
+<tr>
+<td align=center>
+<button type="button" id="results" onClick="self.location.href='score.html'">Ergebnisse</button>
+</td>
+<td align=center>
+<button type="button" id="table" onClick="self.location.href='index.html'">Tabelle</button>
+</td>
+</tr>
+</table>
+<table border=0 cellspacing=0 cellpadding=0 align=center width=991>
+<tr height=20></tr>
+<tr>
+<td colspan=3 height=16 align=center style="background-image:url(pic/header_top.png)"> </td>
+</tr>
+<tr>
+<td height=144 width=9 style="background-image:url(pic/schatten_links.png)"> </td>
+<td height=144 style="background-image:url(pic/header_LiveScore.jpg)"> </td>
+<td height=144 width=9 style="background-image:url(pic/schatten_rechts.png)"> </td>
+</tr>
+<tr>
+<td width=9 style="background-image:url(pic/schatten_links.png)"></td>
+<td><table bgcolor=#ffffff border=0 cellspacing=0 height=600 width=100% style="font-family:Verdana">
+<tr>
+<th width=60 align=center>Spiel</th>
+<th width=90 align=center>Uhrzeit</th>
+<th width=70 align=center>&nbsp;</th>
+<th align=center>Heim</th>
+<th width=30>-</th>
+<th align=center>Gast</th>
+<th width=50 colspan=3>Ergebnis</th>
+</tr>
+<tr>
+<td colspan=9 height=1 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>1.</td><td class="entries" align=center>13:30</td><td class="entries" >&nbsp;</td><td class="entries" align=right>TuS Schmidt</td><td class="entries" align=center>-</td><td class="entries" align=left>SG Monschau/Imgenbroich 2</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>2.</td><td class="entries" align=center>13:45</td><td class="entries" >&nbsp;</td><td class="entries" align=right>FC Roetgen 3</td><td class="entries" align=center>-</td><td class="entries" align=left>RSV Hertha Strauch</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>3.</td><td class="entries" align=center>14:00</td><td class="entries" >&nbsp;</td><td class="entries" align=right>SV Rott 2</td><td class="entries" align=center>-</td><td class="entries" align=left>Inde Hahn 3</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>4.</td><td class="entries" align=center>14:15</td><td class="entries" >&nbsp;</td><td class="entries" align=right>Germania Eicherscheid 3</td><td class="entries" align=center>-</td><td class="entries" align=left>SV Nordeifel</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>5.</td><td class="entries" align=center>14:30</td><td class="entries" >&nbsp;</td><td class="entries" align=right>TuS Schmidt</td><td class="entries" align=center>-</td><td class="entries" align=left>FC Roetgen 3</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>6.</td><td class="entries" align=center>14:45</td><td class="entries" >&nbsp;</td><td class="entries" align=right>RSV Hertha Strauch</td><td class="entries" align=center>-</td><td class="entries" align=left>SG Monschau/Imgenbroich 2</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>7.</td><td class="entries" align=center>15:00</td><td class="entries" >&nbsp;</td><td class="entries" align=right>SV Rott 2</td><td class="entries" align=center>-</td><td class="entries" align=left>Germania Eicherscheid 3</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>8.</td><td class="entries" align=center>15:15</td><td class="entries" >&nbsp;</td><td class="entries" align=right>SV Nordeifel</td><td class="entries" align=center>-</td><td class="entries" align=left>Inde Hahn 3</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>9.</td><td class="entries" align=center>15:30</td><td class="entries" >&nbsp;</td><td class="entries" align=right>SG Monschau/Imgenbroich 2</td><td class="entries" align=center>-</td><td class="entries" align=left>FC Roetgen 3</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>10.</td><td class="entries" align=center>15:45</td><td class="entries" >&nbsp;</td><td class="entries" align=right>RSV Hertha Strauch</td><td class="entries" align=center>-</td><td class="entries" align=left>TuS Schmidt</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>11.</td><td class="entries" align=center>16:00</td><td class="entries" >&nbsp;</td><td class="entries" align=right>Inde Hahn 3</td><td class="entries" align=center>-</td><td class="entries" align=left>Germania Eicherscheid 3</td><td class="entries" align=right></td><td class="entries" align=center> :</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+<tr>
+<td class="entries" align=center>12.</td><td class="entries" align=center>16:15</td><td class="entries" >&nbsp;</td><td class="entries" align=right>SV Nordeifel</td><td class="entries" align=center>-</td><td class="entries" align=left>SV Rott 2</td><td class="entries" align=right></td><td class="entries" align=center>:</td><td class="entries" align=left></td>
+</tr>
+<tr>
+<td colspan=9 height=2 bgcolor="#eeeeee"></td>
+</tr>
+</table></td>
+<td width=9 style="background-image:url(pic/schatten_rechts.png)"></td>
+</tr>
+<tr>
+<td height=60 colspan=3 height=16 align=center style="background-image:url(pic/footer_abschluss.png)"><h1 id="time">&nbsp;</h1></td>
+</tr></table>
+</body>

@@ -1,0 +1,22 @@
+button {
+	position: relative;
+	margin: 2em;
+	padding: .5em 1em;
+	width: 8em;
+	background: blue;
+	color: white;
+	border: 4px black;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 28px;
+}
+
+button:active {
+	outline: none;
+	background: white;
+	color: darkblue;
+}
+
+td.entries {
+	font-size: 20px;
+}
